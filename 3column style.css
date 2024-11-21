@@ -1,0 +1,63 @@
+.maindiv{
+    width:690px;
+    display:flex;
+    height:370px;
+    margin: 7em auto;
+
+}
+.sedan{
+  background-color: hsl(31, 77%, 52%) ;
+    color:white;
+    padding:1em;
+   
+    font-family:  "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700px;
+    font-style: normal;
+    }
+.suvs{
+     background-color:hsl(184, 100%, 22%) ;
+     padding:1em;
+     color:white; 
+     font-family:  "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+.luxury{
+   color:aliceblue;
+    background-color:hsl(179, 100%, 13%) ;
+    padding:1em;
+    font-family:  "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700px;
+    font-style: normal;
+}
+button{
+    padding:7px;
+    border-radius: 20px;
+    width:55%;
+    border-style: none;
+}
+#button1{
+    color: hsl(31, 77%, 52%) ;
+}
+#button2{
+    color:hsl(184, 100%, 22%) ;
+}
+#button3{
+    color:hsl(179, 100%, 13%) ;
+}
+button:hover{
+    cursor:pointer;
+}
+@media screen and ( max-width:375px){
+   .maindiv{
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    height:100%;
+   }
+   }
+    
+
